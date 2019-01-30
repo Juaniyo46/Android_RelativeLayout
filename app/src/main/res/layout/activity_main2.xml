@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="@color/marron">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@+id/menu"
+            android:text="GYM"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/blanco"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/textc"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:text="Es hora de empezar tu rutina!"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textStyle="normal"
+            android:textColor="@color/blanco"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Comenzar"
+            android:textColor="@color/blanco"
+            android:textStyle="italic"
+            android:background="@drawable/input"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/pesas"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/pesas"
+            android:background="@drawable/inputr"
+            />
+
+        <TextView
+            android:id="@+id/completo"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Completo"
+            android:layout_toEndOf="@+id/pesas"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:id="@+id/prin1"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Principiante"
+            android:layout_below="@+id/completo"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:id="@+id/inter1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Intermedio"
+            android:layout_below="@+id/completo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/prin1"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Profesional"
+            android:layout_below="@+id/completo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/inter1"
+            android:textColor="@color/blanco"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/abdomen"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/abdominales"
+            android:background="@drawable/inputr"
+            />
+
+        <TextView
+            android:id="@+id/abdominales"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Abdominales"
+            android:layout_toEndOf="@+id/abdomen"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:id="@+id/prin2"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Principiante"
+            android:layout_below="@+id/abdominales"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:id="@+id/inter2"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Intermedio"
+            android:layout_below="@+id/abdominales"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/prin2"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Profesional"
+            android:layout_below="@+id/abdominales"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/inter2"
+            android:textColor="@color/blanco"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/pierna"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/abdominales"
+            android:background="@drawable/inputr"
+            />
+
+        <TextView
+            android:id="@+id/piernas"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="Abdominales"
+            android:layout_toEndOf="@+id/pierna"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:id="@+id/prin3"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Principiante"
+            android:layout_below="@+id/piernas"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:id="@+id/inter3"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="Intermedio"
+            android:layout_below="@+id/piernas"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/prin3"
+            android:textColor="@color/blanco"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:text="Profesional"
+            android:layout_below="@+id/piernas"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/inter3"
+            android:textColor="@color/blanco"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:id="@+id/atras1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="ATRAS"
+            android:layout_marginLeft="20dp"
+            android:background="@color/blanco"/>
+
+        <Button
+            android:id="@+id/siguiente2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@+id/atras1"
+            android:layout_marginLeft="170dp"
+            android:text="comenzar"
+            android:background="@color/blanco"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
